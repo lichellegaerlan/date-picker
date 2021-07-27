@@ -1,0 +1,16 @@
+.pls {
+    font-family: 'Muli';
+    font-size: 100%;
+    font-weight: 100;
+    text-transform: uppercase;
+    background-color: #bb8c86;
+    color: #fff;
+    border: none;
+    /* padding: top right bottom left */
+    padding: 10px;
+    text-align: left;
+    border-radius: 5px;
+  
+    display: inline-block;
+    margin-right: 20px;
+}
