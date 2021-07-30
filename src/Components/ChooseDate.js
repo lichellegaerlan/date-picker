@@ -2,7 +2,6 @@ import React from 'react';
 
 import './Landing.css';
 
-import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
 
 export default props => {
@@ -11,11 +10,7 @@ export default props => {
             <Container>
                 <Row>
                     <Col>
-                        <h1>Choose an option</h1>
-                        <br/><br/>
-                        <Link to="/choose"><button className="pls">Pick Date</button></Link>
-                        <br/><br/>
-                        <Link to="/add"><button className="pls">Add Date</button></Link>
+                        <h1>What kind of date do you want to go on?</h1>
                     </Col>
                 </Row>
             </Container>
